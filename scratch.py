@@ -1,3 +1,4 @@
+import right_sort
 point_1 = (0, 2)  # координаты первой точки
 point_2 = (2, 5)  # координаты второй точки
 point_3 = (5, 2)  # координаты третей точки
@@ -27,7 +28,7 @@ def sort(sort_list, sed_list):
     return sed_list
 
 
-sl = sort(list_1, [])  # сортируем
+sl = right_sort.s_or_t(list_1, [])  # сортируем
 sl.append(point_1)  # добавляем возврат домой
 
 # подстановка значений в формулу
